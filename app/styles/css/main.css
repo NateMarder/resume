@@ -5,11 +5,31 @@
   text-indent: 0;
   background-color: #ffffff; }
 
+.green {
+  background-color: green;
+  min-height: 50px; }
+
+.red {
+  background-color: darkred;
+  min-height: 50px; }
+
+.orange {
+  background-color: darkorange;
+  min-height: 50px; }
+
 #resume-wrapper {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 15px auto;
   padding: 25px;
-  background-color: #ddd; }
+  border: 1px #ddd solid;
+  font-family: Helvetica, Arial, Verdana; }
+
+#wrapper {
+  margin: 25px;
+  padding: 25px;
+  text-align: center;
+  line-height: 5em;
+  font-size: 25px; }
 
 li {
   content: "• ";
@@ -59,9 +79,6 @@ hr {
   margin: 0 0 5px 0;
   left: 0;
   text-align: left; }
-
-body {
-  padding-left: 20px; }
 
 .s1 {
   font-family: "Century Gothic", sans-serif;

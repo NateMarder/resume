@@ -1,3 +1,3 @@
 $(document).ready(function () {
-    alert('hi');
+    console.log("page load event");
 });
