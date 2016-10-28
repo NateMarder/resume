@@ -17,15 +17,14 @@
 
 #resume-wrapper {
     margin: 20px auto;
-    border: 1px $bluestone solid;
+    border: 2px $mist solid;
     font-family: Helvetica, Arial, Verdana;
     max-width: 900px;
     h1 {
         margin-top: 0;
     }
     .row {
-        border-top: 4px $brown solid;
-        padding-top: 10px;
+        padding: 10px;
     }
 }
 
@@ -34,7 +33,6 @@ li {
     content: "• ";
     display: block;
     text-indent: 0;
-    //padding-left: 5px;
     display: block;
 }
 
@@ -53,7 +51,7 @@ li:before {
 
 ul li {
     content: "\f00c";
-    //content: "• ";
+    content: "• ";
     text-decoration: none;
     font-size: 10.5pt;
     list-style-type: disc;
@@ -79,12 +77,10 @@ dir {
 }
 
 hr {
-    max-width: 800px;
-    margin: 0 0 2px 0;
+    margin: 0;
     left: 0;
     text-align: left;
-    border-top: 1px $bluestone solid;
-    color: $bluestone;
+    border-top: 2px $mist solid;
 }
 
 .contact-info {
@@ -97,6 +93,7 @@ hr {
     text-decoration: none;
     font-weight: 690;
     font-size: 15px;
+    margin-left: -15px;
 }
 
 .employment-position-title {
@@ -104,14 +101,11 @@ hr {
     font-style: italic;
     font-size: 18px;
     font-weight: 680;
+    margin-left: -15px;
 }
 
 p {
     font-family: Calibri, sans-serif, sans-serif;
-    // font-weight: normal;
-    //  text-decoration: none;
-    //font-size: 10.5pt;
-    // margin: 0pt;
 }
 
 .a,
@@ -126,16 +120,10 @@ a {
 
 #l1 {
     content: "\f00c";
-    /* FontAwesome Unicode */
     padding-left: 0pt;
 }
 
-//   content: "\f00c"; /* FontAwesome Unicode */
-//   font-family: FontAwesome;
-//   display: inline-block;
 #l1>li:before {
-    //  content: " ";
-    //font-family: Symbol, serif;
     font-weight: normal;
     text-decoration: none;
     font-size: 10.5pt;
@@ -146,13 +134,6 @@ a {
     padding-left: 0pt;
 }
 
-// #l2>li:before {
-//     content: " ";
-//     font-family: Symbol, serif;
-//     font-weight: normal;
-//     text-decoration: none;
-//     font-size: 10.5pt;
-// }
 .fa {
     padding-right: 5px;
 }
@@ -168,5 +149,4 @@ h1 {
 
 .container {
     width: auto;
-    background-color: $mist;
 }
