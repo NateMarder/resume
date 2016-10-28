@@ -1,62 +1,50 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-  text-indent: 0;
-  background-color: #ffffff; }
+.link-div {
+  cursor: pointer; }
 
-.green {
-  background-color: green;
-  min-height: 50px; }
+.bluestone {
+  background-color: #336B87; }
 
-.red {
-  background-color: darkred;
-  min-height: 50px; }
+.brownautumn {
+  background-color: #763626; }
 
 .orange {
-  background-color: darkorange;
-  min-height: 50px; }
+  background-color: #DD440A; }
 
 #resume-wrapper {
-  max-width: 800px;
-  margin: 15px auto;
-  padding: 25px;
-  border: 1px #ddd solid;
-  font-family: Helvetica, Arial, Verdana; }
-
-#wrapper {
-  margin: 25px;
-  padding: 25px;
-  text-align: center;
-  line-height: 5em;
-  font-size: 25px; }
+  margin: 20px auto;
+  border: 1px #336B87 solid;
+  font-family: Helvetica, Arial, Verdana;
+  max-width: 900px; }
+  #resume-wrapper h1 {
+    margin-top: 0; }
+  #resume-wrapper .row {
+    border-top: 4px #423431 solid;
+    padding-top: 10px; }
 
 li {
+  content: "\f00c";
   content: "• ";
   display: block;
   text-indent: 0;
-  padding-left: 5px;
   display: block; }
 
 li:before {
   content: "• "; }
 
 #l3 > li:before {
-  content: "• ";
+  content: "\f00c";
   font-family: Arial, sans-serif;
   font-weight: normal;
   text-decoration: none;
   font-size: 10.5pt; }
 
-ul {
-  padding-left: 20;
-  padding-bottom: 7px;
-  list-style-position: outside; }
-
 ul li {
+  content: "\f00c";
+  text-decoration: none;
+  font-size: 10.5pt;
   list-style-type: disc;
   list-style-position: inside;
-  padding: 0 0 0 1em;
   text-indent: -.6em; }
 
 p {
@@ -76,45 +64,15 @@ dir {
 
 hr {
   max-width: 800px;
-  margin: 0 0 5px 0;
+  margin: 0 0 2px 0;
   left: 0;
-  text-align: left; }
-
-.s1 {
-  font-family: "Century Gothic", sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  font-size: 26pt; }
+  text-align: left;
+  border-top: 1px #336B87 solid;
+  color: #336B87; }
 
 .contact-info {
   width: 400px;
   text-align: right; }
-
-.s3 {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  font-size: 11pt;
-  text-align: right; }
-
-.s4 {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  font-size: 7pt;
-  vertical-align: 4pt; }
-
-.s6 {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  text-decoration: underline;
-  font-size: 14pt; }
-
-.s7 {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  font-size: 10.5pt; }
 
 .section-title {
   text-transform: uppercase;
@@ -125,52 +83,45 @@ hr {
 .employment-position-title {
   font-family: Calibri, sans-serif;
   font-style: italic;
-  font-weight: 620; }
-
-.awesomeness-point {
-  padding-top: 3pt;
-  padding-left: 35pt;
-  text-indent: -11pt;
-  line-height: 12pt;
-  text-align: left; }
+  font-size: 18px;
+  font-weight: 680; }
 
 p {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  font-size: 10.5pt;
-  margin: 0pt; }
+  font-family: Calibri, sans-serif, sans-serif; }
 
 .a,
 a {
   font-family: Calibri, sans-serif;
   font-weight: 400; }
 
-.s9 {
-  font-family: Calibri, sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  font-size: 10pt; }
-
 .document-header {
   border-collapse: collapse; }
 
 #l1 {
+  content: "\f00c";
+  /* FontAwesome Unicode */
   padding-left: 0pt; }
 
 #l1 > li:before {
-  content: " ";
-  font-family: Symbol, serif;
   font-weight: normal;
   text-decoration: none;
   font-size: 10.5pt; }
 
 #l2 {
+  content: "\f00c";
   padding-left: 0pt; }
 
-#l2 > li:before {
-  content: " ";
-  font-family: Symbol, serif;
+.fa {
+  padding-right: 5px; }
+
+h1 {
+  font-family: "Century Gothic", sans-serif;
   font-weight: normal;
   text-decoration: none;
-  font-size: 10.5pt; }
+  font-size: 26pt;
+  padding-left: 0;
+  margin-left: 0; }
+
+.container {
+  width: auto;
+  background-color: #90AFC5; }
