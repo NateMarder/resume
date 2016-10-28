@@ -1,0 +1,258 @@
+	@import "core.scss";
+	h1 {
+		font-family: "Century Gothic", sans-serif;
+		font-weight: normal;
+		text-decoration: none;
+		font-size: 26pt;
+		padding-left: 0;
+		margin-left: 0;
+	}
+	
+	.home {
+		.container {
+			display: table;
+			vertical-align: middle;
+			height: 100%;
+		}
+		.vertical-center-row {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	
+	.link-div {
+		cursor: pointer;
+	}
+	
+	.bluestone {
+		background-color: $bluestone;
+	}
+	
+	.brownautumn {
+		background-color: $brownautumn;
+	}
+	
+	.orange {
+		background-color: $orange;
+	}
+	
+	#resume-wrapper {
+		margin: 20px auto;
+		margin-top: 70px;
+		border: 2px $mist solid;
+		font-family: Helvetica, Arial, Verdana;
+		max-width: 900px;
+		h1 {
+			margin-top: 0;
+		}
+		.row {
+			padding: 10px 10px 0 10px;
+		}
+	}
+	
+	p {
+		display: inline;
+	}
+	
+	ul {
+		display: block;
+		list-style-type: disc;
+		-webkit-margin-before: 0em;
+		-webkit-margin-after: 0em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+		-webkit-padding-start: 0px;
+		max-width: 800px;
+		padding-bottom: 10px;
+		li {
+			text-indent: 0;
+			display: block;
+			content: "\f00c";
+			content: "• ";
+			text-decoration: none;
+			font-size: 10.5pt;
+			list-style-type: disc;
+			list-style-position: inside;
+			text-indent: -.8em;
+			 ::before {
+				content: "• ";
+			}
+		}
+	}
+	
+	hr {
+		margin: 0;
+		left: 0;
+		padding-top: 5px;
+		text-align: left;
+		border-top: 2px $mist solid;
+	}
+	
+	.contact-info {
+		width: 400px;
+		text-align: right;
+	}
+	
+	.section-title {
+		text-transform: uppercase;
+		text-decoration: none;
+		font-weight: 850;
+		font-size: 15px;
+		margin-left: -15px;
+	}
+	
+	.employment-position-title {
+		font-family: Calibri, sans-serif;
+		font-style: italic;
+		font-size: 18px;
+		font-weight: 680;
+		margin-left: -15px;
+	}
+	
+	p {
+		font-family: Calibri, sans-serif, sans-serif;
+	}
+	
+	.a,
+	a {
+		font-family: Calibri, sans-serif;
+		font-weight: 400;
+		color: black;
+	}
+	
+	.document-header {
+		border-collapse: collapse;
+	}
+	
+	#l1 {
+		content: "\f00c";
+		padding-left: 0pt;
+	}
+	
+	.fa {
+		padding-right: 5px;
+	}
+	
+	.container {
+		width: auto;
+	}
+	
+	// MARK - NAVIGATION SYTLINGS
+	nav {
+		padding: 3px;
+		.navbar {
+			.navbar-nav {
+				display: inline-block;
+				vertical-align: top;
+			}
+		}
+		.navbar {
+			.navbar-collapse {
+				text-align: center;
+			}
+		}
+		ul {
+			padding-bottom: 0;
+			li {
+				font-size: 10.5pt;
+				list-style-type: disc;
+				list-style-position: inside;
+				text-indent: 0;
+				text-transform: uppercase;
+				::before {
+					content: none;
+				}
+			}
+		}
+		.nav-pills>li.active>a {
+			margin-right: 5px;
+			border: none;
+			outline: none !important;
+			color: #fff;
+			background-color: $greyslate;
+			font-family: "Century Gothic", sans-serif;
+		}
+		.nav-pills>li.active>a:focus {
+			background-color: $orange;
+		}
+		.nav-pills>li.active>a:hover {
+			background-color: $dirtyblue;
+		}
+		.container {
+			background-color: rgba(255, 255, 255, .8);
+		}
+	}
+	
+	// This Part is for styling for mobile devices/phones and stuff
+	//border looks bad on phone
+	@media only screen and (max-width: 800px) {
+		#resume-wrapper {
+			border: none;
+			margin: 20px auto;
+			//margin-top: 70px;
+		}
+		.resume-row {
+			text-align: center !important;
+		}
+		#spiffy-nav {
+			display: none;
+		}
+	}
+	/* buttons
+==========================================================================*/
+	
+	.button-wrapper .btn {
+		margin: 20px 0px;
+	}
+	
+	.link-resume-btn {
+		background-color: #333;
+		border: none;
+		outline: none !important;
+		color: #fff;
+		background-color: $greyslate;
+		font-family: "Century Gothic", sans-serif;
+	}
+	
+	.btn-container-col-center {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 150px;
+	}
+	
+	.button-wrapper {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-around;
+	}
+	
+	a.btn>span.glyphicon {
+		margin-left: 12px;
+	}
+	
+	@media (min-width: 520px) {
+		.button-wrapper {
+			align-items: center;
+			flex-flow: row wrap;
+			-ms-flex-flow: row wrap;
+			-webkit-flex-flow: row wrap;
+		}
+		.btn-container-center>a.btn {
+			margin-left: 12px;
+			margin-right: 12px;
+		}
+		.btn-container-center {
+			justify-content: center;
+		}
+		.btn-container-center>a.btn:first-of-type {
+			margin-left: 0;
+		}
+		.btn-container-center>a.btn:last-of-type {
+			margin-right: 0;
+		}
+		.btn-container-col-center {
+			flex-direction: column;
+			align-items: center;
+			margin-top: 150px;
+		}
+	}

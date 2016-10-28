@@ -1,0 +1,43 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "git.allowLargeRepositories": true,
+
+
+
+
+    "editor.acceptSuggestionOnEnter": true,
+    "editor.insertSpaces": true,
+    "editor.mouseWheelZoom": true,
+    "editor.parameterHints": true,
+    "editor.codeLens": true,
+    "editor.folding": true,
+
+
+
+
+
+    "html.format.endWithNewline": true,
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautify"
+            ]
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html"
+        ]
+    },
+    "beautify.onSave": ["css", "html", "js", "html"],
+    "scss.validate": true
+
+}
