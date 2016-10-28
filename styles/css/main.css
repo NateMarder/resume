@@ -7,6 +7,11 @@ h1 {
   padding-left: 0;
   margin-left: 0; }
 
+.vert-centered {
+  position: fixed;
+  top: 30%;
+  right: 50%; }
+
 .home .container {
   display: table;
   vertical-align: middle;
@@ -30,7 +35,6 @@ h1 {
 
 #resume-wrapper {
   margin: 20px auto;
-  margin-top: 70px;
   border: 2px #90AFC5 solid;
   font-family: Helvetica, Arial, Verdana;
   max-width: 900px; }
@@ -152,23 +156,26 @@ nav {
   #spiffy-nav {
     display: none; } }
 
-/* buttons
-==========================================================================*/
+/* MARK - BUTTONS AND BUTTON STYLINGS */
 .button-wrapper .btn {
   margin: 20px 0px; }
 
-.link-resume-btn {
+.nav-link-btn {
+  width: 200px;
+  font-size: 26px;
   background-color: #333;
   border: none;
   outline: none !important;
   color: #fff;
   background-color: #60697A;
   font-family: "Century Gothic", sans-serif; }
+  .nav-link-btn :hover {
+    background-color: #DD440A;
+    color: red; }
 
 .btn-container-col-center {
   flex-direction: column;
-  align-items: center;
-  margin-top: 150px; }
+  align-items: center; }
 
 .button-wrapper {
   display: flex;
@@ -195,5 +202,4 @@ a.btn > span.glyphicon {
     margin-right: 0; }
   .btn-container-col-center {
     flex-direction: column;
-    align-items: center;
-    margin-top: 150px; } }
+    align-items: center; } }

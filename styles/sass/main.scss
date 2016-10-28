@@ -8,6 +8,12 @@
 		margin-left: 0;
 	}
 	
+	.vert-centered {
+		position: fixed;
+		top: 30%;
+		right: 50%;
+	}
+	
 	.home {
 		.container {
 			display: table;
@@ -38,7 +44,6 @@
 	
 	#resume-wrapper {
 		margin: 20px auto;
-		margin-top: 70px;
 		border: 2px $mist solid;
 		font-family: Helvetica, Arial, Verdana;
 		max-width: 900px;
@@ -159,7 +164,7 @@
 				list-style-position: inside;
 				text-indent: 0;
 				text-transform: uppercase;
-				::before {
+				 ::before {
 					content: none;
 				}
 			}
@@ -183,13 +188,10 @@
 		}
 	}
 	
-	// This Part is for styling for mobile devices/phones and stuff
-	//border looks bad on phone
 	@media only screen and (max-width: 800px) {
 		#resume-wrapper {
 			border: none;
 			margin: 20px auto;
-			//margin-top: 70px;
 		}
 		.resume-row {
 			text-align: center !important;
@@ -198,26 +200,30 @@
 			display: none;
 		}
 	}
-	/* buttons
-==========================================================================*/
+	/* MARK - BUTTONS AND BUTTON STYLINGS */
 	
 	.button-wrapper .btn {
 		margin: 20px 0px;
 	}
 	
-	.link-resume-btn {
+	.nav-link-btn {
+		width: 200px;
+		font-size: 26px;
 		background-color: #333;
 		border: none;
 		outline: none !important;
 		color: #fff;
 		background-color: $greyslate;
 		font-family: "Century Gothic", sans-serif;
+		 :hover {
+			background-color: $orange;
+			color: red;
+		}
 	}
 	
 	.btn-container-col-center {
 		flex-direction: column;
 		align-items: center;
-		margin-top: 150px;
 	}
 	
 	.button-wrapper {
@@ -253,6 +259,5 @@
 		.btn-container-col-center {
 			flex-direction: column;
 			align-items: center;
-			margin-top: 150px;
 		}
 	}
