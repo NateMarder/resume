@@ -4,25 +4,30 @@ $(document).ready(function () {
 	sky = $('.js-object-sky');
 
 	$(document).keypress(function (event) {
-
 		switch (event.charCode) {
-
-			case 114:
-				startRain();
-				startRain('middle');
-				startRain('back');
-				break;
+			// case 114:
+			// 	bringTheRain()
+			// 	break;
 			case 115:
-				stopRain();
-				stopRain('middle');
-				stopRain('back');
+				location.reload();
 				break;
 			default:
-				alert("wrong key " + event.charCode);
+				console.log("keypress");
 		}
 	});
 
+
+	setTimeout(function () {
+		startRain();
+	}, 3000);
+
 });
+
+function bringTheRain() {
+	startRain();
+	startRain('middle');
+	startRain('back');
+}
 
 
 
@@ -48,16 +53,7 @@ function startRain(plane) {
 
 
 function stopRain() {
-
-	// <div class="sky sky--is-raining js-object-sky">
-	// 	<div class="sky__rain rain"></div>
-	// 	<div class="sky__rain rain rain--middle " style="left:100px; "></div>
-
-	setInterval(function () {
-		//var $rainDropFront = $('.rain');
-		sky.remove(rain);
-
-	}, 25);
+	clearInterval(rainInterval);
 }
 
 
