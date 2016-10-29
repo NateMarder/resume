@@ -1,4 +1,8 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
 h1 {
   font-family: "Century Gothic", sans-serif;
   font-weight: normal;
@@ -203,3 +207,36 @@ a.btn > span.glyphicon {
   .btn-container-col-center {
     flex-direction: column;
     align-items: center; } }
+
+@keyframes drop {
+  0% {
+    top: -50%; }
+  100% {
+    top: 200%; } }
+
+.sky {
+  height: 100%;
+  perspective: 1000px;
+  position: absolute;
+  width: 100%;
+  overflow: hidden; }
+  .sky--is-raining {
+    background-color: #D4CEC0; }
+
+.rain {
+  animation: drop 4s infinite;
+  animation-timing-function: linear;
+  background: #D4CEC0;
+  height: 80px;
+  position: absolute;
+  width: 2px; }
+  .rain--middle {
+    transform: translateZ(-500px); }
+  .rain--back {
+    transform: translateZ(-1000px); }
+
+.rain-color {
+  background: linear-gradient(rgba(51, 107, 135, 0), 70%, #336b87); }
+
+.go-left {
+  left: 100px; }
