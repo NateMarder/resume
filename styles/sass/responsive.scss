@@ -1,0 +1,29 @@
+@import "core.scss";
+
+/************************************************************
+*******                                         *************
+*******    Everything Under 700px Width         *************
+*******                                         *************
+*************************************************************/
+
+@media only screen and (max-width: 700px) {
+    ul {
+        margin: auto;
+        padding: auto;
+        padding-bottom: 0;
+    }
+    .home-nav-content {
+        .col-md-12::first-child {
+            margin-top: 30%;
+        }
+        margin-top: 150px;
+    }
+    #resume-wrapper {
+        border: none;
+        margin: 20px auto;
+        margin-top: 5px;
+    }
+    .resume-row {
+        text-align: center !important;
+    }
+}
