@@ -1,43 +1,52 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "git.allowLargeRepositories": true,
+	"git.allowLargeRepositories": true,
 
 
 
 
-    "editor.acceptSuggestionOnEnter": true,
-    "editor.insertSpaces": true,
-    "editor.mouseWheelZoom": true,
-    "editor.parameterHints": true,
-    "editor.codeLens": true,
-    "editor.folding": true,
+	"editor.acceptSuggestionOnEnter": true,
+	"editor.insertSpaces": true,
+	"editor.mouseWheelZoom": true,
+	"editor.parameterHints": true,
+	"editor.codeLens": true,
+	"editor.folding": true,
+	"editor.wrappingColumn": 0,
+	"editor.rulers": [3, 7],
+	"html.format.endWithNewline": true,
+	"html.format.maxPreserveNewLines": 2,
 
 
+	"beautify.language": {
+		"js": {
+			"type": [
+				"javascript",
+				"json"
+			],
+			"filename": [
+				".jshintrc",
+				".jsbeautify"
+			]
+		},
+		"css": [
+			"css",
+			"scss"
+		],
+		"html": [
+			"htm",
+			"html"
+		]
+	},
+	"beautify.onSave": ["css", "html", "js", "html"],
+	"beautify.preserve_new_lines": true,
+	"beautify.end_with_newline": true,
+	"beautify.wrap_line_length": 0,
+	"beautify.onSaveIgnore": [
+		"**/*+(.|_|-)min.*"
+	],
+	"beautify.extra_liners": false,
 
 
-
-    "html.format.endWithNewline": true,
-    "beautify.language": {
-        "js": {
-            "type": [
-                "javascript",
-                "json"
-            ],
-            "filename": [
-                ".jshintrc",
-                ".jsbeautify"
-            ]
-        },
-        "css": [
-            "css",
-            "scss"
-        ],
-        "html": [
-            "htm",
-            "html"
-        ]
-    },
-    "beautify.onSave": ["css", "html", "js", "html"],
-    "scss.validate": true
+	"scss.validate": true
 
 }
