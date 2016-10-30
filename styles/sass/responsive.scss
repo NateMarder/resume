@@ -4,14 +4,17 @@
 *******                                         *************
 *************************************************************/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 	ul {
 		margin: auto;
 		padding: auto;
 		padding-bottom: 0;
 	}
+}
+
+@media only screen and (max-width: 800px) {
 	hr {
-		border-top: 2px rgba(0, 102, 104, .8) solid
+		border-top: 2px rgba(0, 102, 104, .8) solid;
 	}
 	.home-nav-content {
 		.col-md-12::first-child {
@@ -34,15 +37,18 @@
 				}
 			}
 		}
-	}
-	#resume-wrapper>div:nth-child(3)>div:nth-child(n+3)>span {
-		padding-top: 5px;
-	}
-	#resume-wrapper>div.row.skills-row>div.col-md-12>div,
-	#resume-wrapper>div.row.emplyment-row>div.col-md-12>div,
-	#resume-wrapper>div.row.education-row>div.col-md-12>div,
-	#resume-wrapper>div.row.hobbies-row>div.col-md-12>div {
-		padding-top: 10px;
+		.employment-row {
+			:nth-child(n+3) {
+				.list-heading {
+					padding-top: 7px;
+				}
+			}
+		}
+		// div.row.employment-row>div.col-md-12>div,
+		// div.row.education-row>div.col-md-12>div,
+		// div.row.hobbies-row>div.col-md-12>div {
+		// 	padding-top: 10px;
+		// }
 	}
 }
 

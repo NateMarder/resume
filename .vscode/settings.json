@@ -9,7 +9,6 @@
 	"editor.folding": true,
 	"html.format.endWithNewline": true,
 	"html.format.maxPreserveNewLines": 2,
-	"html.suggest.html5": true,
 	"editor.wrappingColumn": -1,
 	"editor.quickSuggestions": true,
 

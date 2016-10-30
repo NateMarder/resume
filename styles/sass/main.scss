@@ -8,6 +8,58 @@ h1 {
 	margin-left: 0;
 }
 
+body {}
+
+p {
+	display: inline;
+}
+
+p {
+	font-family: Calibri, sans-serif, sans-serif;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	max-width: 800px;
+	padding-bottom: 10px;
+	li {
+		font-family: Calibri, sans-serif, sans-serif;
+		padding: 0 10px;
+		text-indent: 0;
+		display: block;
+		content: "\f00c";
+		text-decoration: none;
+		font-size: 10.5pt;
+		list-style-type: disc;
+		//list-style-position: outside;
+		text-indent: -.8em;
+		 ::before {
+			content: "• ";
+		}
+	}
+	.list-heading {
+		font-weight: normal;
+		list-style: none;
+		font-weight: 750;
+		font-style: italic;
+		font-size: 16px;
+	}
+}
+
+hr {
+	margin: 0;
+	left: 0;
+	padding-top: 5px;
+	text-align: left;
+	border-top: 2px $mist solid;
+}
+
 #resume-wrapper>div.row.resume-title-row>div.col-md-8 {
 	padding-left: 0;
 	h1 {
@@ -52,44 +104,6 @@ h1 {
 	}
 }
 
-p {
-	display: inline;
-}
-
-ul {
-	display: block;
-	list-style-type: disc;
-	-webkit-margin-before: 0em;
-	-webkit-margin-after: 0em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-padding-start: 0px;
-	max-width: 800px;
-	padding-bottom: 10px;
-	li {
-		padding: 0 10px;
-		text-indent: 0;
-		display: block;
-		content: "\f00c";
-		text-decoration: none;
-		font-size: 10.5pt;
-		list-style-type: disc;
-		list-style-position: inside;
-		text-indent: -.8em;
-		 ::before {
-			content: "• ";
-		}
-	}
-}
-
-hr {
-	margin: 0;
-	left: 0;
-	padding-top: 5px;
-	text-align: left;
-	border-top: 2px $mist solid;
-}
-
 .contact-info {
 	width: 400px;
 	text-align: right;
@@ -109,10 +123,7 @@ hr {
 	font-size: 18px;
 	font-weight: 680;
 	margin-left: -15px;
-}
-
-p {
-	font-family: Calibri, sans-serif, sans-serif;
+	width: 100%;
 }
 
 a.a::before {
