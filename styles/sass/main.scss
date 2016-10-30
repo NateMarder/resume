@@ -8,7 +8,7 @@ h1 {
 	margin-left: 0;
 }
 
-#resume-wrapper>div.row.resume-row>div.col-md-8 {
+#resume-wrapper>div.row.resume-title-row>div.col-md-8 {
 	padding-left: 0;
 	h1 {
 		color: #444;
@@ -227,32 +227,6 @@ nav {
 
 a.btn>span.glyphicon {
 	margin-left: 12px;
-}
-
-@media (min-width: 520px) {
-	.button-wrapper {
-		align-items: center;
-		flex-flow: row wrap;
-		-ms-flex-flow: row wrap;
-		-webkit-flex-flow: row wrap;
-	}
-	.btn-container-center>a.btn {
-		margin-left: 12px;
-		margin-right: 12px;
-	}
-	.btn-container-center {
-		justify-content: center;
-	}
-	.btn-container-center>a.btn:first-of-type {
-		margin-left: 0;
-	}
-	.btn-container-center>a.btn:last-of-type {
-		margin-right: 0;
-	}
-	.btn-container-col-center {
-		flex-direction: column;
-		align-items: center;
-	}
 }
 
 
