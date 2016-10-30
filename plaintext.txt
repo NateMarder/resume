@@ -1,0 +1,45 @@
+CONTACT INFO:
+Nathan Marder, MS
+github: https://github.com/natemarder
+pdf version: http://natemarder.com/resume.pdf
+
+SOFTWARE AND COMPUTER SKILLS:
+- Agile / Scrum development processes
+- Microsoft’s .Net and MVC development frameworks
+- HTML, CHTML
+- CSS, SCSS, LESS
+- JavaScript, JQuery, TypeScript
+- C#, SQL, Java, Swift
+- Microsoft’s Visual Studio, NetBeans, IntelliJ
+- SQL Server Management Studio
+- Git distributed version control
+- Object oriented design strategies and best practices
+
+EMPLOYMENT SUMMARY:
+NAVEX Global, Portland Oregon, Full Stack Software Engineer, August 2015-present
+- Served as full-stack software engineer, as part of an agile team tasked with developing new analytics features for a modern ethics/compliance related web application currently used by 97% of the top fortune 100 businesses.
+- Handled and resolved challenging product support tickets that required refactoring legacy code.
+- Was responsible for writing scalable and human readable frontend and backend code, which adhered to stringent technical standards. Part of this process involved participating in a rigorous code review process for each check-in.
+- Interfaced with business analysts, other developers, product owners, product managers, and quality assurance engineers to determine optimal application design and function.
+- Participated on a technical standards committee committed to the constant evaluate and improve the company’s technical software-writing standards.
+
+ActivityRez, Honolulu Hawaii, iOS Application Developer, 2014-2015
+- Led a small team of students in developing an iOS application designed to let clients sign and store pdf documents, which could then be automatically uploaded to a cloud storage facility.
+- This task entailed learning a new programming language (Swift) and working on a tight deadline to meet client expectations.
+- The application was successfully deployed into Apple’s App Store, and information about ActivityRez and the app can be viewed here: Liability Waivers by ActivityRez.
+- Was promoted into this role after serving as an intern working on an Android application for ActivityRez. Code for the Android application is available open source on GitHub and can be downloaded/viewed here: Showcase-for-Android.
+
+Hawaii State Children’s Mental Health Division, Honolulu Hawaii, Social Worker, 2007-2013
+- Served as leader for the Evidence-Based Service Committee’s ‘Help Your Keiki Website Task Group’. Coordinated website content development, website design, and site promotion for the helpyourkeiki.com website which educates caregivers in Hawaii about children’s evidence-based mental health services. Visit http://helpyourkeiki.com for more information.
+- Was responsible for the mental health division's SharePoint site with responsibilities including staff training, system troubleshooting, and on-going site design and maintenance. Led the division’s effort to deploy the SharePoint infrastructure (2010-2012)
+- Lead administration efforts for the mental health division's public-facing website.
+- Developed, implemented, and maintained a service utilization data dashboard hosted on the mental health division's SharePoint site.
+- Served as the mental health division's Social Media Coordinator with the goal of using social media to enhance internal and external division communications. 
+
+EDUCATION:
+- Hawaii Pacific University, Honolulu HI 2015: B.S. Computer Science, graduated with honors: 3.51 GPA
+- Virginia Commonwealth University, Richmond VA 2006: M.S. Rehab Counseling, graduated with honors: 3.94 GPA
+- George Washington University, Washington DC 2001: B.A. Psychology
+
+OTHER INTERESTS/ENJOYMENTS:
+- Hiking, hanging out with my Boston Terrier, playing music, craft beer/donuts
