@@ -2,9 +2,12 @@ $(document).ready(function () {
 
 	rain = $('.sky__rain');
 	sky = $('.js-object-sky');
+	startRain();
 
 	$(document).keypress(function (event) {
 		switch (event.charCode) {
+
+			// "r"
 			// case 114:
 			// 	bringTheRain()
 			// 	break;
@@ -17,9 +20,26 @@ $(document).ready(function () {
 	});
 
 
-	setTimeout(function () {
-		startRain();
-	}, 3000);
+	if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+		var $foo = sky;
+		$foo.on('mousedown touchstart', handleEventStart);
+		$foo.on('mousemove touchmove', handleEventMove);
+		$foo.on('mouseup touchend touchcancel', handleEventEnd);
+	}
+
+	function handleEventStart(e) {
+		location.reload();
+	}
+
+	function handleEventMove(e) {
+		location.reload();
+	}
+
+	function handleEventEnd(e) {
+		location.reload();
+	}
+
+
 
 });
 
@@ -55,39 +75,3 @@ function startRain(plane) {
 function stopRain() {
 	clearInterval(rainInterval);
 }
-
-
-
-
-// (function() {
-//   function randomRainDropLocation() {
-//     return Math.floor(Math.random() * 100);  
-//   }
-
-//   function startRain(plane) {
-//     plane = plane || '';
-
-//     setInterval(function(){
-//       var $rainDrop = $('<div class="sky__rain rain"></div>');
-
-//       if(plane) {
-//         $rainDrop.addClass('rain--' + plane);
-//       }
-
-//       $sky.append($rainDrop);
-//       $rainDrop.css('left', randomRainDropLocation() + '%');
-//       setTimeout(function(){
-//         $rainDrop.remove();
-//       }, 3000)
-//     }, 25);
-//   }
-
-//   var $sky = $('.js-object-sky');
-//   return {
-//     init: function init() {
-//       startRain();
-//       startRain('middle');
-//       startRain('back');
-//     }
-//   }
-// }()).init();

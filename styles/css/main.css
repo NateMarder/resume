@@ -217,11 +217,11 @@ a.btn > span.glyphicon {
   width: 100%;
   overflow: hidden; }
   .sky--is-raining {
-    background-color: #D4CEC0; }
+    background-color: #000; }
 
 .rain {
   animation: drop 4s infinite;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in;
   background: #D4CEC0;
   height: 80px;
   position: absolute;
@@ -232,7 +232,7 @@ a.btn > span.glyphicon {
     transform: translateZ(-1000px); }
 
 .rain-color {
-  background: linear-gradient(rgba(51, 107, 135, 0), 70%, #336b87); }
+  background: linear-gradient(rgba(51, 107, 135, 0), 70%, #e6e6e6); }
 
 .go-left {
   left: 100px; }

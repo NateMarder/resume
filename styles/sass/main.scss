@@ -277,14 +277,14 @@ a.btn>span.glyphicon {
 	position: absolute;
 	width: 100%;
 	&--is-raining {
-		background-color: $dirtybaige;
+		background-color: #000;
 	}
 	overflow: hidden;
 }
 
 .rain {
 	animation: drop 4s infinite;
-	animation-timing-function: linear;
+	animation-timing-function: ease-in;
 	background: $dirtybaige;
 	height: 80px;
 	position: absolute;
@@ -298,7 +298,7 @@ a.btn>span.glyphicon {
 }
 
 .rain-color {
-	background: linear-gradient(rgba(51, 107, 135, 0), 70%, rgba(51, 107, 135, 1));
+	background: linear-gradient(rgba(51, 107, 135, 0), 70%, rgba(230, 230, 230, 1));
 }
 
 .go-left {
