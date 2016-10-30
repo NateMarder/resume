@@ -8,6 +8,14 @@ h1 {
 	margin-left: 0;
 }
 
+#resume-wrapper>div.row.resume-row>div.col-md-8 {
+	padding-left: 0;
+	h1 {
+		color: #444;
+		margin-bottom: 0;
+	}
+}
+
 .vert-centered {
 	position: fixed;
 	top: 20%;
@@ -41,9 +49,6 @@ h1 {
 	}
 	.row {
 		padding: 10px 10px 0 10px;
-	}
-	div.row.resume-row>div.col-md-4>p>i {
-		padding-right: 1px;
 	}
 }
 

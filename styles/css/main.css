@@ -7,6 +7,12 @@ h1 {
   padding-left: 0;
   margin-left: 0; }
 
+#resume-wrapper > div.row.resume-row > div.col-md-8 {
+  padding-left: 0; }
+  #resume-wrapper > div.row.resume-row > div.col-md-8 h1 {
+    color: #444;
+    margin-bottom: 0; }
+
 .vert-centered {
   position: fixed;
   top: 20%;
@@ -34,8 +40,6 @@ h1 {
     margin-top: 0; }
   #resume-wrapper .row {
     padding: 10px 10px 0 10px; }
-  #resume-wrapper div.row.resume-row > div.col-md-4 > p > i {
-    padding-right: 1px; }
 
 p {
   display: inline; }
