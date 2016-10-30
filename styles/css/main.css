@@ -1,46 +1,7 @@
 @charset "UTF-8";
-h1 {
-  font-family: "Century Gothic", sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  font-size: 26pt;
-  padding-left: 0;
-  margin-left: 0; }
-
 p {
-  display: inline; }
-
-p {
-  font-family: Calibri, sans-serif, sans-serif; }
-
-ul {
-  display: block;
-  list-style-type: disc;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 0px;
-  max-width: 800px;
-  padding-bottom: 10px; }
-  ul li {
-    font-family: Calibri, sans-serif, sans-serif;
-    padding: 0 10px;
-    text-indent: 0;
-    display: block;
-    content: "\f00c";
-    text-decoration: none;
-    font-size: 10.5pt;
-    list-style-type: disc;
-    text-indent: -.8em; }
-    ul li ::before {
-      content: "• "; }
-  ul .list-heading {
-    font-weight: normal;
-    list-style: none;
-    font-weight: 750;
-    font-style: italic;
-    font-size: 16px; }
+  display: inline;
+  font-family: 'Open Sans', sans-serif; }
 
 hr {
   margin: 0;
@@ -49,11 +10,43 @@ hr {
   text-align: left;
   border-top: 2px #90AFC5 solid; }
 
-#resume-wrapper > div.row.resume-title-row > div.col-md-8 {
-  padding-left: 0; }
-  #resume-wrapper > div.row.resume-title-row > div.col-md-8 h1 {
-    color: #444;
-    margin-bottom: 0; }
+#resume-wrapper {
+  margin: 25px auto;
+  border: 2px #90AFC5 solid;
+  max-width: 900px; }
+  #resume-wrapper h1 {
+    font-family: 'Open Sans', sans-serif; }
+  #resume-wrapper ul {
+    -webkit-padding-start: 0px;
+    padding: 0;
+    text-indent: inherit; }
+    #resume-wrapper ul li {
+      display: block;
+      text-decoration: none;
+      font-size: 10.5pt;
+      text-indent: -.6em; }
+      #resume-wrapper ul li ::before {
+        content: "• "; }
+    #resume-wrapper ul .list-heading {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      list-style: none;
+      font-size: 16px; }
+  #resume-wrapper .row {
+    padding: 10px 10px 0 10px; }
+  #resume-wrapper .row.resume-title-row div.col-md-8 > span > h1 {
+    margin: 0 0 0 -15px;
+    padding: 0; }
+  #resume-wrapper .row.skills-row > div > ul {
+    padding: 0; }
+  #resume-wrapper div.row.employment-row div > ul > li.list-heading {
+    padding-left: 0;
+    margin-left: -15px;
+    text-indent: inherit; }
+  #resume-wrapper a.a::before {
+    content: none; }
+  #resume-wrapper .fa {
+    padding-right: 5px; }
 
 .vert-centered {
   position: fixed;
@@ -73,120 +66,37 @@ hr {
 .orange {
   background-color: #DD440A; }
 
-#resume-wrapper {
-  margin: 20px auto;
-  border: 2px #90AFC5 solid;
-  font-family: Helvetica, Arial, Verdana;
-  max-width: 900px; }
-  #resume-wrapper h1 {
-    margin-top: 0; }
-  #resume-wrapper .row {
-    padding: 10px 10px 0 10px; }
-
 .contact-info {
   width: 400px;
   text-align: right; }
 
 .section-title {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 850;
   font-size: 15px;
-  margin-left: -15px; }
+  margin-left: -15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px; }
 
 .employment-position-title {
-  font-family: Calibri, sans-serif;
-  font-style: italic;
   font-size: 18px;
   font-weight: 680;
   margin-left: -15px;
   width: 100%; }
 
-a.a::before {
-  content: none; }
-
 a {
-  font-family: Calibri, sans-serif;
   font-weight: 575;
   color: #222; }
 
 .document-header {
   border-collapse: collapse; }
 
-#l1 {
-  content: "\f00c";
-  padding-left: 0pt; }
-
-.fa {
-  padding-right: 5px; }
-
 .container {
   width: auto; }
-
-nav {
-  padding: 3px; }
-  nav .navbar .navbar-nav {
-    display: inline-block;
-    vertical-align: top; }
-  nav .navbar .navbar-collapse {
-    text-align: center; }
-  nav ul {
-    padding-bottom: 0; }
-    nav ul li {
-      font-size: 10.5pt;
-      list-style-type: disc;
-      list-style-position: inside;
-      text-indent: 0;
-      text-transform: uppercase; }
-      nav ul li ::before {
-        content: none; }
-  nav .nav-pills > li.active > a {
-    margin-right: 5px;
-    border: none;
-    outline: none !important;
-    color: #fff;
-    background-color: #60697A;
-    font-family: "Century Gothic", sans-serif; }
-  nav .nav-pills > li.active > a:focus {
-    background-color: #DD440A; }
-  nav .nav-pills > li.active > a:hover {
-    background-color: #9AB6C2; }
-  nav .container {
-    background-color: rgba(255, 255, 255, 0.8); }
 
 /************************************************************
 *******                                         *************
 *******    MARK - BUTTONS AND BUTTON STYLINGS   *************
 *******                                         *************
 *************************************************************/
-.button-wrapper .btn {
-  margin: 20px 0px; }
-
-.nav-link-btn {
-  width: 200px;
-  font-size: 26px;
-  background-color: #333;
-  border: none;
-  outline: none !important;
-  color: #fff;
-  background-color: #60697A;
-  font-family: "Century Gothic", sans-serif; }
-  .nav-link-btn :hover {
-    background-color: #DD440A;
-    color: red; }
-
-.btn-container-col-center {
-  flex-direction: column;
-  align-items: center; }
-
-.button-wrapper {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around; }
-
-a.btn > span.glyphicon {
-  margin-left: 12px; }
-
 /************************************************************
 *******                                         *************
 *******            SandBox Stylings             *************
@@ -221,6 +131,3 @@ a.btn > span.glyphicon {
 
 .rain-color {
   background: linear-gradient(rgba(51, 107, 135, 0), 70%, #e6e6e6); }
-
-.go-left {
-  left: 100px; }

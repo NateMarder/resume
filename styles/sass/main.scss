@@ -1,55 +1,7 @@
 @import "core.scss";
-h1 {
-	font-family: "Century Gothic", sans-serif;
-	font-weight: normal;
-	text-decoration: none;
-	font-size: 26pt;
-	padding-left: 0;
-	margin-left: 0;
-}
-
-body {}
-
 p {
 	display: inline;
-}
-
-p {
-	font-family: Calibri, sans-serif, sans-serif;
-}
-
-ul {
-	display: block;
-	list-style-type: disc;
-	-webkit-margin-before: 0em;
-	-webkit-margin-after: 0em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-padding-start: 0px;
-	max-width: 800px;
-	padding-bottom: 10px;
-	li {
-		font-family: Calibri, sans-serif, sans-serif;
-		padding: 0 10px;
-		text-indent: 0;
-		display: block;
-		content: "\f00c";
-		text-decoration: none;
-		font-size: 10.5pt;
-		list-style-type: disc;
-		//list-style-position: outside;
-		text-indent: -.8em;
-		 ::before {
-			content: "• ";
-		}
-	}
-	.list-heading {
-		font-weight: normal;
-		list-style: none;
-		font-weight: 750;
-		font-style: italic;
-		font-size: 16px;
-	}
+	font-family: 'Open Sans', sans-serif;
 }
 
 hr {
@@ -60,11 +12,57 @@ hr {
 	border-top: 2px $mist solid;
 }
 
-#resume-wrapper>div.row.resume-title-row>div.col-md-8 {
-	padding-left: 0;
+#resume-wrapper {
+	margin: 25px auto;
+	border: 2px $mist solid;
+	max-width: 900px;
 	h1 {
-		color: #444;
-		margin-bottom: 0;
+		font-family: 'Open Sans', sans-serif;
+	}
+	ul {
+		-webkit-padding-start: 0px;
+		padding: 0;
+		text-indent: inherit;
+		li {
+			display: block;
+			text-decoration: none;
+			font-size: 10.5pt;
+			text-indent: -.6em;
+			 ::before {
+				content: "• ";
+			}
+		}
+		.list-heading {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			list-style: none;
+			font-size: 16px;
+		}
+	}
+	.row {
+		padding: 10px 10px 0 10px;
+	}
+	.row.resume-title-row {
+		div.col-md-8>span>h1 {
+			margin: 0 0 0 -15px;
+			padding: 0;
+		}
+	}
+	.row.skills-row>div>ul {
+		padding: 0;
+	}
+	div.row.employment-row {
+		div>ul>li.list-heading {
+			padding-left: 0;
+			margin-left: -15px;
+			text-indent: inherit;
+		}
+	}
+	a.a::before {
+		content: none;
+	}
+	.fa {
+		padding-right: 5px;
 	}
 }
 
@@ -91,47 +89,26 @@ hr {
 	background-color: $orange;
 }
 
-#resume-wrapper {
-	margin: 20px auto;
-	border: 2px $mist solid;
-	font-family: Helvetica, Arial, Verdana;
-	max-width: 900px;
-	h1 {
-		margin-top: 0;
-	}
-	.row {
-		padding: 10px 10px 0 10px;
-	}
-}
-
 .contact-info {
 	width: 400px;
 	text-align: right;
 }
 
 .section-title {
-	text-transform: uppercase;
-	text-decoration: none;
-	font-weight: 850;
 	font-size: 15px;
 	margin-left: -15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
 }
 
 .employment-position-title {
-	font-family: Calibri, sans-serif;
-	font-style: italic;
 	font-size: 18px;
 	font-weight: 680;
 	margin-left: -15px;
 	width: 100%;
 }
 
-a.a::before {
-	content: none;
-}
-
 a {
-	font-family: Calibri, sans-serif;
 	font-weight: 575;
 	color: #222;
 }
@@ -140,63 +117,8 @@ a {
 	border-collapse: collapse;
 }
 
-#l1 {
-	content: "\f00c";
-	padding-left: 0pt;
-}
-
-.fa {
-	padding-right: 5px;
-}
-
 .container {
 	width: auto;
-}
-
-// MARK - NAVIGATION SYTLINGS
-nav {
-	padding: 3px;
-	.navbar {
-		.navbar-nav {
-			display: inline-block;
-			vertical-align: top;
-		}
-	}
-	.navbar {
-		.navbar-collapse {
-			text-align: center;
-		}
-	}
-	ul {
-		padding-bottom: 0;
-		li {
-			font-size: 10.5pt;
-			list-style-type: disc;
-			list-style-position: inside;
-			text-indent: 0;
-			text-transform: uppercase;
-			 ::before {
-				content: none;
-			}
-		}
-	}
-	.nav-pills>li.active>a {
-		margin-right: 5px;
-		border: none;
-		outline: none !important;
-		color: #fff;
-		background-color: $greyslate;
-		font-family: "Century Gothic", sans-serif;
-	}
-	.nav-pills>li.active>a:focus {
-		background-color: $orange;
-	}
-	.nav-pills>li.active>a:hover {
-		background-color: $dirtyblue;
-	}
-	.container {
-		background-color: rgba(255, 255, 255, .8);
-	}
 }
 
 
@@ -205,40 +127,6 @@ nav {
 *******    MARK - BUTTONS AND BUTTON STYLINGS   *************
 *******                                         *************
 *************************************************************/
-
-.button-wrapper .btn {
-	margin: 20px 0px;
-}
-
-.nav-link-btn {
-	width: 200px;
-	font-size: 26px;
-	background-color: #333;
-	border: none;
-	outline: none !important;
-	color: #fff;
-	background-color: $greyslate;
-	font-family: "Century Gothic", sans-serif;
-	 :hover {
-		background-color: $orange;
-		color: red;
-	}
-}
-
-.btn-container-col-center {
-	flex-direction: column;
-	align-items: center;
-}
-
-.button-wrapper {
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: space-around;
-}
-
-a.btn>span.glyphicon {
-	margin-left: 12px;
-}
 
 
 /************************************************************
@@ -284,8 +172,4 @@ a.btn>span.glyphicon {
 
 .rain-color {
 	background: linear-gradient(rgba(51, 107, 135, 0), 70%, rgba(230, 230, 230, 1));
-}
-
-.go-left {
-	left: 100px;
 }
