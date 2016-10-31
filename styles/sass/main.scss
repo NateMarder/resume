@@ -29,7 +29,7 @@ a:visited,
 
 #resume-wrapper {
 	margin: 25px auto;
-	padding: 10px 0 0 20px;
+	padding: 10px 20px 10px 20px;
 	border: 2px $mist solid;
 	max-width: 900px;
 	.list-heading {
@@ -66,7 +66,7 @@ a:visited,
 	}
 	.row.employment-row {
 		div>ul>li.list-heading {
-			margin-left: -15px;
+			margin-left: -18px;
 			text-indent: inherit;
 		}
 	}

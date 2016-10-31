@@ -22,7 +22,7 @@ a:visited {
 
 #resume-wrapper {
   margin: 25px auto;
-  padding: 10px 0 0 20px;
+  padding: 10px 20px 10px 20px;
   border: 2px #90AFC5 solid;
   max-width: 900px; }
   #resume-wrapper .list-heading {
@@ -49,7 +49,7 @@ a:visited {
   #resume-wrapper .row.skills-row > div > ul {
     padding: 0; }
   #resume-wrapper .row.employment-row div > ul > li.list-heading {
-    margin-left: -15px;
+    margin-left: -18px;
     text-indent: inherit; }
   #resume-wrapper .fa {
     padding-right: 7px; }
