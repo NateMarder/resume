@@ -1,61 +1,58 @@
-@charset "UTF-8";
-p {
-  display: inline;
+/************************************************************
+*******                                         *************
+*******            HTML Element Types           *************
+*******                                         *************
+*************************************************************/
+body {
   font-family: 'Open Sans', sans-serif; }
 
 hr {
   margin: 0;
-  left: 0;
   padding-top: 5px;
+  left: 0;
   text-align: left;
-  border-top: 2px #90AFC5 solid; }
+  border-top: 2px #90AFC5 solid;
+  width: auto; }
+
+a,
+a:hover,
+a:visited {
+  color: #000;
+  text-decoration: none; }
 
 #resume-wrapper {
   margin: 25px auto;
+  padding: 10px 0 0 20px;
   border: 2px #90AFC5 solid;
   max-width: 900px; }
-  #resume-wrapper h1 {
-    font-family: 'Open Sans', sans-serif; }
+  #resume-wrapper .list-heading {
+    font-weight: 600;
+    list-style: none;
+    font-size: 16px; }
   #resume-wrapper ul {
     -webkit-padding-start: 0px;
-    padding: 0;
-    text-indent: inherit; }
-    #resume-wrapper ul li {
-      display: block;
-      text-decoration: none;
-      font-size: 10.5pt;
-      text-indent: -.6em; }
-      #resume-wrapper ul li ::before {
-        content: "• "; }
-    #resume-wrapper ul .list-heading {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 600;
-      list-style: none;
-      font-size: 16px; }
+    text-indent: inherit;
+    list-style-position: outside; }
+  #resume-wrapper li {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 10.5pt; }
+    #resume-wrapper li span {
+      position: relative;
+      left: -5px; }
   #resume-wrapper .row {
-    padding: 10px 10px 0 10px; }
-  #resume-wrapper .row.resume-title-row div.col-md-8 > span > h1 {
-    margin: 0 0 0 -15px;
+    padding: 0px 0px 15px 0px;
+    margin: 0; }
+  #resume-wrapper .row.resume-title-row .col-md-8 > span > h1 {
+    margin: 0 0 0 -23px;
     padding: 0; }
   #resume-wrapper .row.skills-row > div > ul {
     padding: 0; }
-  #resume-wrapper div.row.employment-row div > ul > li.list-heading {
-    padding-left: 0;
+  #resume-wrapper .row.employment-row div > ul > li.list-heading {
     margin-left: -15px;
     text-indent: inherit; }
-  #resume-wrapper a.a::before {
-    content: none; }
   #resume-wrapper .fa {
-    padding-right: 5px; }
-
-.vert-centered {
-  position: fixed;
-  top: 20%;
-  right: 50%;
-  left: 50%; }
-
-.link-div {
-  cursor: pointer; }
+    padding-right: 7px; }
 
 .bluestone {
   background-color: #336B87; }
@@ -72,31 +69,9 @@ hr {
 
 .section-title {
   font-size: 15px;
-  margin-left: -15px;
-  font-family: 'Open Sans', sans-serif;
+  margin-left: -25px;
   font-size: 22px; }
 
-.employment-position-title {
-  font-size: 18px;
-  font-weight: 680;
-  margin-left: -15px;
-  width: 100%; }
-
-a {
-  font-weight: 575;
-  color: #222; }
-
-.document-header {
-  border-collapse: collapse; }
-
-.container {
-  width: auto; }
-
-/************************************************************
-*******                                         *************
-*******    MARK - BUTTONS AND BUTTON STYLINGS   *************
-*******                                         *************
-*************************************************************/
 /************************************************************
 *******                                         *************
 *******            SandBox Stylings             *************

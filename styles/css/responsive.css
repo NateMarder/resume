@@ -23,6 +23,10 @@
     #resume-wrapper div.row.resume-title-row .col-md-4 {
       float: none !important;
       text-align: center !important; }
+      #resume-wrapper div.row.resume-title-row .col-md-8 h1,
+      #resume-wrapper div.row.resume-title-row .col-md-4 h1 {
+        margin: 0;
+        padding: 0; }
       #resume-wrapper div.row.resume-title-row .col-md-8 span,
       #resume-wrapper div.row.resume-title-row .col-md-4 span {
         float: none !important;
